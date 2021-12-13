@@ -26,7 +26,7 @@
     "build.types": "dx tsc",
     "lint": "dx eslint src/ spec/",
     "test": "dx jest",
-    "prerelease": "npm run lint && npm test && NODE_ENV=production npm run build",
+    "prerelease": "NODE_ENV=production npm run build",
     "release": "dx semantic-release",
     "prepare": "prisma generate"
   },

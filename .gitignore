@@ -30,6 +30,8 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
+packages/dx/**/*
+
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 
 # Dependency directories

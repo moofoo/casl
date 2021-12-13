@@ -1,23 +1,24 @@
-version: "2"
+version: '2'
 plugins:
-  eslint:
-    enabled: false
-    config:
-      extensions: [.js, .ts]
-    checks:
-      import/extensions:
+    eslint:
         enabled: false
-      import/no-extraneous-dependencies:
-        enabled: false
-      no-console:
-        enabled: false
-      method-complexity:
         config:
-          threshold: 8
+            extensions: [.js, .ts]
+        checks:
+            import/extensions:
+                enabled: false
+            import/no-extraneous-dependencies:
+                enabled: false
+            no-console:
+                enabled: false
+            method-complexity:
+                config:
+                    threshold: 8
 
 exclude_patterns:
-- docs/**/*
-- docs-src/**/*
-- "**/spec/**/*"
-- "**/*.d.ts"
-- tools/**/*
+    - packages/casl-ability/**/*
+    - docs/**/*
+    - docs-src/**/*
+    - '**/spec/**/*'
+    - '**/*.d.ts'
+    - tools/**/*

@@ -32,8 +32,8 @@
     "rollup": "IGNORE_SUBPATH=1 LIB_MINIFY=false BUILD_TYPES=$BUILD ES_TRANSFORM=false dx rollup -i dist/$BUILD/tmp/index.js -n casl.ng -g @angular/core:ng.core,@casl/ability:casl,tslib:tslib,rxjs:rxjs",
     "postrollup": "rm -rf dist/$BUILD/tmp",
     "test": "dx jest --config ./jest.config.js",
-    "lint": "dx eslint src/ spec/",
-    "prerelease": "npm run lint && NODE_ENV=production npm run build && npm test",
+    "lint": "",
+    "prerelease": "NODE_ENV=production npm run build",
     "release": "dx semantic-release"
   },
   "keywords": [
