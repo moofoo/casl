@@ -1,0 +1,304 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@casl/ability': ^5.1.0
+  '@casl/dx': workspace:^1.0.0
+  aurelia-bootstrapper: ^2.3.0
+  aurelia-framework: ^1.3.1
+  aurelia-loader-nodejs: ^1.0.1
+  aurelia-pal-browser: ^1.8.0
+  aurelia-polyfills: ^1.3.0
+  aurelia-testing: ^1.0.0-beta.4.0.0
+  chai: ^4.1.0
+  chai-spies: ^1.0.0
+
+devDependencies:
+  '@casl/ability': link:../casl-ability
+  '@casl/dx': link:../dx
+  aurelia-bootstrapper: 2.3.3
+  aurelia-framework: 1.3.1
+  aurelia-loader-nodejs: 1.1.0
+  aurelia-pal-browser: 1.8.1
+  aurelia-polyfills: 1.3.4
+  aurelia-testing: 1.0.0
+  chai: 4.3.4
+  chai-spies: 1.0.0_chai@4.3.4
+
+packages:
+
+  /@types/debug/0.0.29:
+    resolution: {integrity: sha1-oeUUrfvZLwOiJLpU1pMRHb8fN1Q=}
+    dev: true
+
+  /@types/lodash/4.14.178:
+    resolution: {integrity: sha512-0d5Wd09ItQWH1qFbEyQ7oTQ3GZrMfth5JkbN3EvTKLXcHLRDSXeLnlvlOn0wvxVIwK5o2M8JzP/OWz7T3NRsbw==}
+    dev: true
+
+  /assertion-error/1.1.0:
+    resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
+    dev: true
+
+  /aurelia-binding/2.5.4:
+    resolution: {integrity: sha512-tYhYCFvQne+chO3p8KntCWj0r8oCXiCOGQ0yFbthHDBpjjTA4QlBwpGQ8nlGoGDKj7n4PoobeIjN3lEDKgKUyw==}
+    dependencies:
+      aurelia-logging: 1.5.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-task-queue: 1.3.3
+    dev: true
+
+  /aurelia-bootstrapper/2.3.3:
+    resolution: {integrity: sha512-34ktKyCFAWbl4rjGSEiGNTJTk59+JMcJ+tkXElI5Gm03gOXhvDnxZl7cR3jYXakBui+rThF3i31TcASLk57oag==}
+    dependencies:
+      aurelia-event-aggregator: 1.0.3
+      aurelia-framework: 1.3.1
+      aurelia-history: 1.2.1
+      aurelia-history-browser: 1.4.0
+      aurelia-loader-default: 1.2.1
+      aurelia-logging-console: 1.1.1
+      aurelia-pal: 1.8.2
+      aurelia-pal-browser: 1.8.1
+      aurelia-polyfills: 1.3.4
+      aurelia-router: 1.7.1
+      aurelia-templating: 1.10.4
+      aurelia-templating-binding: 1.5.3
+      aurelia-templating-resources: 1.13.1
+      aurelia-templating-router: 1.4.0_aurelia-router@1.7.1
+    dev: true
+
+  /aurelia-dependency-injection/1.5.2:
+    resolution: {integrity: sha512-LnKgpXzKuG2A/YPGeg5OOw8zvkbvDBMRJA9QDCjZlxymsPI98dwggNSQHI8UK+hTIBqOmjjRxqdMoeROo2Gpbw==}
+    dependencies:
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-event-aggregator/1.0.3:
+    resolution: {integrity: sha512-8fSWNCgh3gIsq/MgE+njVnUlYS05D6acyC8aJECekNWYecdBz46ckEblywP1ZNHLIt3u/Ws0oMqiOp1Jjw+0hw==}
+    dependencies:
+      aurelia-logging: 1.5.2
+    dev: true
+
+  /aurelia-framework/1.3.1:
+    resolution: {integrity: sha512-eKR+JnrVzYQ372pokHjfw+YfiGpFIO6yGOotGHkeLtIVZcVowX4oYe1HEkDe7/VXU3f6cDILoYkNIwrZUBij0g==}
+    dependencies:
+      aurelia-binding: 2.5.4
+      aurelia-dependency-injection: 1.5.2
+      aurelia-loader: 1.0.2
+      aurelia-logging: 1.5.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-path: 1.1.7
+      aurelia-task-queue: 1.3.3
+      aurelia-templating: 1.10.4
+    dev: true
+
+  /aurelia-history-browser/1.4.0:
+    resolution: {integrity: sha512-cJdQmHHFMbv3U+xV1FwQVwBQZoJvCxKUh/sbSjwfBbguAqtwWQaj4TFkVe7kYcJaSXzbebbpnTUkSwOfRAojpw==}
+    dependencies:
+      aurelia-history: 1.2.1
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-history/1.2.1:
+    resolution: {integrity: sha512-mHRgGtOKkvSc7ggdJvQGhjERSW0X4TNasa6JojkWGz9e6swe0HpFysKyMt+Hp7jYmGgiuCcQnM09lhDU1YExPA==}
+    dev: true
+
+  /aurelia-loader-default/1.2.1:
+    resolution: {integrity: sha512-V142AYyBFs8m+YD80wWwcjJ4E8lzIv3uAbgUCmgQuBjPxeyWEbaIzxvQvRrrHCI90L64boRNWDiU1VxKlPB1pA==}
+    dependencies:
+      aurelia-loader: 1.0.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-loader-nodejs/1.1.0:
+    resolution: {integrity: sha512-c1tvaWbYRUWepXkinC9qUbXgYxCxGE7qFxMGRvVmc4Cyosr8tbCPptrtAoF9s7C8reapjxQXdQWhYDCSId0iRg==}
+    dependencies:
+      '@types/debug': 0.0.29
+      '@types/lodash': 4.14.178
+      aurelia-loader: 1.0.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-path: 1.1.7
+      debug: 2.6.9
+    dev: true
+
+  /aurelia-loader/1.0.2:
+    resolution: {integrity: sha512-3owEe5Zsk8cIJG+zcxN6gzqUr2z2c+FKhtrL49e1j8vE4ccQQjXg+tvKFnfBVf3pwma6A474WsdK8poYhoVZyA==}
+    dependencies:
+      aurelia-metadata: 1.0.7
+      aurelia-path: 1.1.7
+    dev: true
+
+  /aurelia-logging-console/1.1.1:
+    resolution: {integrity: sha512-fruw56b5P6qgVcbtwGok2m85hm/TI2Tt6Nzs1DOWUTnG8aeNLfCx6pRYBDZIQc/7VjX481e1tn4VqTncwXWCog==}
+    dev: true
+
+  /aurelia-logging/1.5.2:
+    resolution: {integrity: sha512-R0UdpGYBNSosBZ9WefmoIpgr36szFwQrRk2pbblhI+Vx911dUEEW85QXb6BRKVAP1ykz52Fuq8lCZxR6UupQXA==}
+    dev: true
+
+  /aurelia-metadata/1.0.7:
+    resolution: {integrity: sha512-6Q3VV5VvCRjvJyICESwCNSWLkaYml9PAxHo5SjzVv+HNmvFtQRKRazczwECbTD6IWiE+O90+PmamPy4Ac2YnTA==}
+    dependencies:
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-pal-browser/1.8.1:
+    resolution: {integrity: sha512-wUZ/9EEaYKN7omQKESUakZO5aYrNslK1xLY3huMOpZGRsZJT6O76uPS2dDxefGWQEjUBtueMBq9Um7IcQGWXFw==}
+    dependencies:
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-pal/1.8.2:
+    resolution: {integrity: sha512-6erozUK5aaD88PvThs/L87kLsqxqPaBU59PGECr36v9yezhve0BHqpKgbtJ8haHJSiH80K9lsJtXfefedS/3sw==}
+    dev: true
+
+  /aurelia-path/1.1.7:
+    resolution: {integrity: sha512-D6/Tz8jE8b2+Y8Pt6P/fxF6xfJGef+TA6YEljzo1kEzyzbxIvwfqc7pK6i/XGY3LowlumPqrhxkfMjPxLpFIcA==}
+    dev: true
+
+  /aurelia-polyfills/1.3.4:
+    resolution: {integrity: sha512-NvOBYi4aWnxWCxfCfyW5DObggevOwfkC0riGMicgXNQg/ngpaQpFIXQgc4jMlI6jyE+/e38J36Hd9CeUcj04BA==}
+    dependencies:
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-route-recognizer/1.3.2:
+    resolution: {integrity: sha512-nBlNSVmN1aX6KpzCzbISrolX8ETqt/Otet+Lp2qpI98ib9ZoSXVrFDZSgPaOSJaUs3A0r+felLSqBm3NNHqy4g==}
+    dependencies:
+      aurelia-path: 1.1.7
+    dev: true
+
+  /aurelia-router/1.7.1:
+    resolution: {integrity: sha512-P6xxikeHHzVLxpZD8tvTwGJmEHY3M1MPTiIYzk32s85scd4kQ77FgQWo77ujYNv6hjrExifLFbrxIB7pUEziIQ==}
+    dependencies:
+      aurelia-dependency-injection: 1.5.2
+      aurelia-event-aggregator: 1.0.3
+      aurelia-history: 1.2.1
+      aurelia-logging: 1.5.2
+      aurelia-path: 1.1.7
+      aurelia-route-recognizer: 1.3.2
+    dev: true
+
+  /aurelia-task-queue/1.3.3:
+    resolution: {integrity: sha512-ua3J2YO+cZgpn1MqxPlanSDXG4SB0BXotxYDW1iL5f6AsoEvJ3BycZJYw/N9hMQKmWniOeaBr7wGQ+KDiZFywQ==}
+    dependencies:
+      aurelia-pal: 1.8.2
+    dev: true
+
+  /aurelia-templating-binding/1.5.3:
+    resolution: {integrity: sha512-HGfPfmykVdMSCb/ugfB2eQx0CmgUy0XnQOr1i3eenOW4ZN9sg7UNtxNhWorhXgKnUPf13XleA/HeIkwBnILATA==}
+    dependencies:
+      aurelia-binding: 2.5.4
+      aurelia-logging: 1.5.2
+      aurelia-templating: 1.10.4
+    dev: true
+
+  /aurelia-templating-resources/1.13.1:
+    resolution: {integrity: sha512-Syr3mbHScw+ezwFBC6QGRFUy3V5JNUQfoXKxSVtnsdT/fNbUe9PQ5z8cr4slOWsX8tAN3S3+LzHqk6e5f6oqpw==}
+    dependencies:
+      aurelia-binding: 2.5.4
+      aurelia-dependency-injection: 1.5.2
+      aurelia-loader: 1.0.2
+      aurelia-logging: 1.5.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-path: 1.1.7
+      aurelia-task-queue: 1.3.3
+      aurelia-templating: 1.10.4
+    dev: true
+
+  /aurelia-templating-router/1.4.0_aurelia-router@1.7.1:
+    resolution: {integrity: sha512-qjVPVoDpUc9T0rHpXtevD433z+ent/n9cG2Jc1rWqVOt+3n6tGMOR+GgrZnv3q6P0DMZqy/pz6n3th5Y/aK6LA==}
+    peerDependencies:
+      aurelia-router: ^1.5.0
+    dependencies:
+      aurelia-binding: 2.5.4
+      aurelia-dependency-injection: 1.5.2
+      aurelia-logging: 1.5.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-path: 1.1.7
+      aurelia-router: 1.7.1
+      aurelia-templating: 1.10.4
+    dev: true
+
+  /aurelia-templating/1.10.4:
+    resolution: {integrity: sha512-w1AtGneeRRJJPxr7QiGwTyLOsspPSF0xg1bKJnMntVhGC265SrtEAIsF1aKXOuLVTrjhx1Vi+3xPiJ560ilwtw==}
+    dependencies:
+      aurelia-binding: 2.5.4
+      aurelia-dependency-injection: 1.5.2
+      aurelia-loader: 1.0.2
+      aurelia-logging: 1.5.2
+      aurelia-metadata: 1.0.7
+      aurelia-pal: 1.8.2
+      aurelia-path: 1.1.7
+      aurelia-task-queue: 1.3.3
+    dev: true
+
+  /aurelia-testing/1.0.0:
+    resolution: {integrity: sha512-eLzP7Run0PyN0l1YWQobr2H/OEd0zSPabPKcbMD9gAxfGEKpotTQFFEEhCXEJu9ykLWqjO1TARB5SqoXpfdfGg==}
+    dependencies:
+      aurelia-dependency-injection: 1.5.2
+      aurelia-framework: 1.3.1
+      aurelia-logging: 1.5.2
+      aurelia-pal: 1.8.2
+      aurelia-templating: 1.10.4
+    dev: true
+
+  /chai-spies/1.0.0_chai@4.3.4:
+    resolution: {integrity: sha512-elF2ZUczBsFoP07qCfMO/zeggs8pqCf3fZGyK5+2X4AndS8jycZYID91ztD9oQ7d/0tnS963dPkd0frQEThDsg==}
+    engines: {node: '>= 4.0.0'}
+    peerDependencies:
+      chai: '*'
+    dependencies:
+      chai: 4.3.4
+    dev: true
+
+  /chai/4.3.4:
+    resolution: {integrity: sha512-yS5H68VYOCtN1cjfwumDSuzn/9c+yza4f3reKXlE5rUg7SFcCEy90gJvydNgOYtblyf4Zi6jIWRnXOgErta0KA==}
+    engines: {node: '>=4'}
+    dependencies:
+      assertion-error: 1.1.0
+      check-error: 1.0.2
+      deep-eql: 3.0.1
+      get-func-name: 2.0.0
+      pathval: 1.1.1
+      type-detect: 4.0.8
+    dev: true
+
+  /check-error/1.0.2:
+    resolution: {integrity: sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=}
+    dev: true
+
+  /debug/2.6.9:
+    resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
+    dependencies:
+      ms: 2.0.0
+    dev: true
+
+  /deep-eql/3.0.1:
+    resolution: {integrity: sha512-+QeIQyN5ZuO+3Uk5DYh6/1eKO0m0YmJFGNmFHGACpf1ClL1nmlV/p4gNgbl2pJGxgXb4faqo6UE+M5ACEMyVcw==}
+    engines: {node: '>=0.12'}
+    dependencies:
+      type-detect: 4.0.8
+    dev: true
+
+  /get-func-name/2.0.0:
+    resolution: {integrity: sha1-6td0q+5y4gQJQzoGY2YCPdaIekE=}
+    dev: true
+
+  /ms/2.0.0:
+    resolution: {integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=}
+    dev: true
+
+  /pathval/1.1.1:
+    resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
+    dev: true
+
+  /type-detect/4.0.8:
+    resolution: {integrity: sha512-0fr/mIH1dlO+x7TlcMy+bIDqKPsw/70tVyeHW787goQjhmqaZe10uwLujubK9q9Lg6Fiho1KUKDYz0Z7k7g5/g==}
+    engines: {node: '>=4'}
+    dev: true

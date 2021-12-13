@@ -1,0 +1,63 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@casl/ability': ^5.1.0
+  '@casl/dx': workspace:^1.0.0
+  '@prisma/client': ^3.7.0-dev.24
+  '@ucast/core': ^1.10.0
+  '@ucast/js': ^3.0.1
+  prisma: ^3.7.0-dev.24
+
+dependencies:
+  '@ucast/core': 1.10.1
+  '@ucast/js': 3.0.2
+
+devDependencies:
+  '@casl/ability': link:../casl-ability
+  '@casl/dx': link:../dx
+  '@prisma/client': 3.7.0-integration-qe-napi-2.1_87af450f48888eff94c037dab835bb9a
+  prisma: 3.7.0-integration-qe-napi-2.1
+
+packages:
+
+  /@prisma/client/3.7.0-integration-qe-napi-2.1_87af450f48888eff94c037dab835bb9a:
+    resolution: {integrity: sha512-FX3ga2O0tk1UxyLuHmMr9KM6um3sCACQmf4DGfsFDxEuTBh7dtZAmx5sUrBg/m5dCBiIvvCoqASIKoSfIdlZxw==}
+    engines: {node: '>=12.6'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 3.7.0-13.f31012b2f8d4f6729cf574dd86098cf8641c921e
+      prisma: 3.7.0-integration-qe-napi-2.1
+    dev: true
+
+  /@prisma/engines-version/3.7.0-13.f31012b2f8d4f6729cf574dd86098cf8641c921e:
+    resolution: {integrity: sha512-f/QzBK2V6xgPeJOovNV7d4F2lV35I4/7sYYFZP5+/yrHSbye+2rhKR3bf73Jdmw0GvxCpq7sDJbL5IOuy5j4RQ==}
+    dev: true
+
+  /@prisma/engines/3.7.0-13.f31012b2f8d4f6729cf574dd86098cf8641c921e:
+    resolution: {integrity: sha512-NPm1tBwwOUUFpl6ooC2oDNuRau4DC44lDrv5A3XQfiwjAloyOJRGglaNAViSZ98Hsu4MEx4MnAtVdZSy/oRzxw==}
+    requiresBuild: true
+    dev: true
+
+  /@ucast/core/1.10.1:
+    resolution: {integrity: sha512-sXKbvQiagjFh2JCpaHUa64P4UdJbOxYeC5xiZFn8y6iYdb0WkismduE+RmiJrIjw/eLDYmIEXiQeIYYowmkcAw==}
+    dev: false
+
+  /@ucast/js/3.0.2:
+    resolution: {integrity: sha512-zxNkdIPVvqJjHI7D/iK8Aai1+59yqU+N7bpHFodVmiTN7ukeNiGGpNmmSjQgsUw7eNcEBnPrZHNzp5UBxwmaPw==}
+    dependencies:
+      '@ucast/core': 1.10.1
+    dev: false
+
+  /prisma/3.7.0-integration-qe-napi-2.1:
+    resolution: {integrity: sha512-usD8ue70HQtMVIaHkGDPANWQaVcbWAcqfp0S3Ir11lbOfNfoRHhI9UAl9/FcGUrZcjWnMGRFVg4P8SJNGTKB2w==}
+    engines: {node: '>=12.6'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 3.7.0-13.f31012b2f8d4f6729cf574dd86098cf8641c921e
+    dev: true

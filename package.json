@@ -8,6 +8,11 @@
     "prepare": "cd packages/dx && bin/dx.js install"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.0",
+    "@babel/plugin-transform-typescript": "^7.16.1",
+    "@babel/preset-env": "^7.16.4",
     "codecov": "^3.0.0"
   },
   "repository": {
