@@ -1,5 +1,5 @@
 {
-  "name": "@casl/prisma",
+  "name": "moofoo-casl/prisma",
   "version": "1.0.1",
   "description": "Allows to query accessible records using Prisma client based on CASL rules",
   "main": "dist/es6c/index.js",
